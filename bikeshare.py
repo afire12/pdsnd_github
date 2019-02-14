@@ -28,7 +28,7 @@ def get_filters():
         print('Sorry, we are not sure the city you input. Could you try again? ')
 
     # TO DO: get user input for month (all, january, february, ... , june)
-    month = input('Which month do you want to choose? Choose from January to June.')
+    month = input('Which month do you want to choose? Choose from January to June, or all.')
     if month.lower() == 'janurary':
         month = '01'
     elif month.lower() == 'feburary':
@@ -45,7 +45,7 @@ def get_filters():
         print('Sorry, we are not sure the month you input. Could you try again?')
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input('Which day do you want to choose?')
+    day = input('Which day do you want to choose? Choose from Monday to Friday, or all.')
     if day.lower() == 'monday':
         day = 0
     elif day.lower() == 'tuesday':
